@@ -639,4 +639,18 @@ img {
     gap: 1rem;
   }
 }
+.about {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .about {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+}
 
